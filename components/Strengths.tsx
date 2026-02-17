@@ -13,7 +13,7 @@ const Strengths: React.FC = () => {
       )
     },
     {
-      title: "대상별 맞춤형 소독",
+      title: "맞춤형 진단 및 소독",
       desc: "학교(대규모/안전 우선)와 개인 주택(디테일/프라이빗)에 최적화된 맞춤형 약제 및 전문 장비를 운용합니다.",
       icon: (
         <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,7 +27,7 @@ const Strengths: React.FC = () => {
       desc: "소독 후 상태 모니터링 및 주기적인 관리 리포트를 제공하여 지속적인 수목 건강을 책임집니다.",
       icon: (
         <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 0-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       )
     }

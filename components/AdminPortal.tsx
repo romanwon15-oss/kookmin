@@ -51,7 +51,7 @@ const AdminPortal: React.FC<AdminPortalProps> = ({ onClose, items, onUpdate }) =
             <input 
               autoFocus
               type="password" 
-              placeholder="비밀번호 입력 (1111)" 
+              placeholder="비밀번호를 입력하세요" 
               className="w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 outline-none text-center text-lg tracking-widest"
               value={password}
               onChange={e => setPassword(e.target.value)}

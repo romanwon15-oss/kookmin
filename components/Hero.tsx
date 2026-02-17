@@ -15,8 +15,9 @@ const Hero: React.FC = () => {
             <span className="text-green-600 underline decoration-green-200 underline-offset-8">전문 나무 방역 솔루션</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 font-medium leading-relaxed max-w-xl">
-            치료보다 앞선 예방으로 당신의 소중한 나무를 지킵니다. 
-            국민대 출신 전문가들이 과학적이고 체계적인 소독 서비스를 제공합니다.
+            치료보다 앞선 예방으로 당신의 소중한 나무를 지킴니다.<br />
+            국민대 산림환경시스템학과 출신 수목전문가들이 <br className="hidden md:block" />
+            과학적이고 체계적인 소독 및 진단 컨설팅을 제공합니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
@@ -30,7 +31,7 @@ const Hero: React.FC = () => {
                 {[1, 2, 3].map(i => (
                   <img 
                     key={i} 
-                    src={`https://picsum.photos/seed/${i}/40/40`} 
+                    src={`https://picsum.photos/seed/${i + 10}/40/40`} 
                     className="w-8 h-8 rounded-full border-2 border-white" 
                     alt="user" 
                   />
