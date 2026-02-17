@@ -1,0 +1,7 @@
+{
+  "name": "국민나무병원 (Kookmin Tree Hospital)",
+  "description": "치료보다 앞선 예방, 소독 전문가 국민나무병원의 공식 웹사이트입니다. 학교 및 개인 주택 정원 소독 전문 서비스를 제공합니다.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
