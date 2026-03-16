@@ -17,8 +17,7 @@ const Strengths: React.FC = () => {
       desc: "학교(대규모/안전 우선)와 개인 주택(디테일/프라이빗)에 최적화된 맞춤형 약제 및 전문 장비를 운용합니다.",
       icon: (
         <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a2 2 0 00-1.96 1.414l-.722 2.166a2 2 0 00.165 1.637l1.614 3.134a2 2 0 002.346.915l2.131-.426a2 2 0 001.334-1.232l.965-2.895a2 2 0 00-.464-1.99l-2.001-2.001z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 11V9a2 2 0 00-2-2m2 4v4a2 2 0 104 0v-1m-4-3H9m2 0h4m6 1a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 8h6m-3-3v6m-2 10v-4a1 1 0 011-1h2a1 1 0 011 1v4" />
         </svg>
       )
     },
@@ -27,7 +26,7 @@ const Strengths: React.FC = () => {
       desc: "소독 후 상태 모니터링 및 주기적인 관리 리포트를 제공하여 지속적인 수목 건강을 책임집니다.",
       icon: (
         <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 0-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       )
     }

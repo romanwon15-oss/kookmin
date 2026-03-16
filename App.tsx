@@ -1,5 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TermsOfService from './pages/TermsOfService';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import EmailRejection from './pages/EmailRejection';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Strengths from './components/Strengths';
@@ -53,39 +57,47 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">
-      <Header onAdminClick={() => setIsAdmin(true)} />
-      
-      <main>
-        <Hero />
-        <section id="strengths">
-          <Strengths />
-        </section>
-        <section id="services">
-          <Services />
-        </section>
-        <section id="process">
-          <Process />
-        </section>
-        <section id="portfolio">
-          <Portfolio items={portfolioItems} />
-        </section>
-        <section id="consult">
-          <ConsultationForm />
-        </section>
-      </main>
-
-      <Footer />
-      <FloatingButtons />
-
-      {isAdmin && (
-        <AdminPortal 
-          onClose={() => setIsAdmin(false)} 
-          items={portfolioItems}
-          onUpdate={handleUpdatePortfolio}
-        />
-      )}
-    </div>
+    <Router>
+      <div className="min-h-screen bg-white text-gray-900 overflow-x-hidden">
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Header onAdminClick={() => setIsAdmin(true)} />
+              <main>
+                <Hero />
+                <section id="strengths">
+                  <Strengths />
+                </section>
+                <section id="services">
+                  <Services />
+                </section>
+                <section id="process">
+                  <Process />
+                </section>
+                <section id="portfolio">
+                  <Portfolio items={portfolioItems} />
+                </section>
+                <section id="consult">
+                  <ConsultationForm />
+                </section>
+              </main>
+              <Footer />
+              <FloatingButtons />
+              {isAdmin && (
+                <AdminPortal 
+                  onClose={() => setIsAdmin(false)} 
+                  items={portfolioItems}
+                  onUpdate={handleUpdatePortfolio}
+                />
+              )}
+            </>
+          } />
+          <Route path="/terms" element={<TermsOfService />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/email-rejection" element={<EmailRejection />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 

@@ -16,7 +16,7 @@ const FloatingButtons: React.FC = () => {
 
       {/* Kakao Button (Simulated) */}
       <a 
-        href="https://open.kakao.com/" 
+        href="https://pf.kakao.com/_xaEtIX" 
         target="_blank" 
         rel="noopener noreferrer"
         className="w-16 h-16 bg-yellow-400 text-black rounded-full flex items-center justify-center shadow-2xl hover:bg-yellow-500 transition-all hover:scale-110 active:scale-95 group"

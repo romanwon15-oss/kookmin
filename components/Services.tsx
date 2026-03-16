@@ -33,7 +33,7 @@ const Services: React.FC = () => {
                   <svg className="w-6 h-6 shrink-0 text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>정기 소독 및 대규모 방역 장비 완비</span>
+                  <span>정기 소족 및 대규모 방제 장비 완비</span>
                 </li>
               </ul>
               <a href="#consult" className="inline-flex items-center gap-2 mt-8 px-8 py-3 bg-white text-green-700 rounded-full font-bold hover:bg-green-50 transition-colors">

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -49,10 +50,17 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-bold text-gray-500">
-          <div className="space-x-6">
-            <span>상호명: 국민나무병원</span>
-            <span>대표자명: 전승민</span>
-            <span>사업자등록번호: 준비중</span>
+          <div className="flex flex-col items-center md:items-start gap-2">
+            <div className="space-x-6">
+              <span>상호명: 국민나무병원</span>
+              <span>대표자명: 전승민</span>
+              <span>사업자등록번호: 475-81-03724</span>
+            </div>
+            <div className="flex gap-4 underline underline-offset-4">
+              <Link to="/terms" className="hover:text-white transition-colors">이용약관</Link>
+              <Link to="/privacy" className="hover:text-white transition-colors">개인정보처리방침</Link>
+              <Link to="/email-rejection" className="hover:text-white transition-colors">이메일 무단수집거부</Link>
+            </div>
           </div>
           <p>© 2024 Kookmin Tree Hospital. All rights reserved.</p>
         </div>

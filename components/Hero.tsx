@@ -10,12 +10,13 @@ const Hero: React.FC = () => {
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
             나무 소독 전문가
           </div>
-          <h1 className="text-4xl md:text-6xl font-black leading-tight text-gray-900">
-            우리 학교, 우리 집 정원을 위한<br />
-            <span className="text-green-600 underline decoration-green-200 underline-offset-8">전문 나무 방역 솔루션</span>
+          <h1 className="text-4xl md:text-[56px] font-black md:leading-[59px] leading-tight text-gray-900">
+            소중한 우리 학교<br />
+            우리 집 정원을 위한<br />
+            <span className="text-green-600 underline decoration-green-200 underline-offset-8">전문 수목 진단 솔루션</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 font-medium leading-relaxed max-w-xl">
-            치료보다 앞선 예방으로 당신의 소중한 나무를 지킴니다.<br />
+            치료보다 앞선 예방으로 당신의 소중한 나무를 지킵니다.<br />
             국민대 산림환경시스템학과 출신 수목전문가들이 <br className="hidden md:block" />
             과학적이고 체계적인 소독 및 진단 컨설팅을 제공합니다.
           </p>
